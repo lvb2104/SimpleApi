@@ -28,6 +28,8 @@ namespace DevOpsAPI
 
             app.MapControllers();
 
+            app.MapGet("/", () => "Hello World!");
+
             app.Run();
         }
     }

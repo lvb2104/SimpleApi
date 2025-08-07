@@ -1,0 +1,18 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      dotnet: 9.0
+  pre_build:
+    commands:
+      - dotnet restore SimpleApi/SimpleApi.csproj
+  build:
+    commands:
+      - dotnet build SimpleApi/SimpleApi.csproj
+  post_build:
+    commands:
+      - dotnet publish SimpleApi/SimpleApi.csproj -c Release -o ./app
+artifacts:
+  files:
+    - '**/*'
+    
