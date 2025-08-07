@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DevOpsAPI\DevOpsAPI.csproj" />
+    <ProjectReference Include="..\SimpleApi\SimpleApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>
