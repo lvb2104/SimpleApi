@@ -13,4 +13,6 @@ Guide you through deploying an ASP.NET Core 6 Web API to AWS Elastic Beanstalk u
 5. **App live** at Beanstalk’s public URL.  
 6. **Optional**: Set environment variables (e.g., `ASPNETCORE_ENVIRONMENT=Development` for Swagger in prod).
 ---
-Blog source: https://codewithmukesh.com/blog/deploying-aspnet-core-web-api-to-aws-elastic-beanstalk-using-aws-codepipeline/
+Blog source:
+- https://codewithmukesh.com/blog/deploying-aspnet-core-web-api-to-aws-elastic-beanstalk-using-aws-codepipeline/
+- https://dotnetplaybook.com/build-test-and-deploy-a-rest-api-with-azure-devops/
